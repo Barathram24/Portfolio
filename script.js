@@ -14,7 +14,7 @@ navlist.addEventListener("click",()=>{
     document.body.classList.remove("open");
 })
 const textElement = document.querySelector("#typewriter-text");
-const texts = ["Frontend Developer", "UI/UX Designer", "Freelancer"];
+const texts = ["Full-Stack Developer", "UI/UX Designer"];
 let currentTextIndex = 0;
 
 function changeText() {
